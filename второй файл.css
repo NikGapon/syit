@@ -1,0 +1,115 @@
+.class {
+    text-align: center;
+    background: rgb(0, 0, 0)
+}
+
+#id {
+    color: red
+}
+.prost{
+    background-image: url(1212.jpg);
+    
+}
+
+.parent {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background: rgb(250, 250, 250)
+}
+
+.child {
+    border: 2px solid rgb(0, 0, 0);
+    width: 20%;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 10px;
+}
+
+.use_main {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center
+    
+}
+.dsa{
+    height: 30%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    display: flex;
+    justify-content: space-around;
+  }
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    justify-content: space-around;
+    display: block;
+    
+    color: rgb(250, 250, 250)
+
+}
+
+.dager{
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+    /* text-align: center;
+    align-items: center */
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.use_ne {
+    
+    height: 100%;
+    /* justify-content: space-around;
+    align-items: center */
+    
+    
+}
+.yu{
+    background: rgb(0, 0, 0);
+    height: 50px;
+    width: 50%;
+}
+
+.info{
+    border: 2px solid rgb(0, 0, 0);
+    width: 20%;
+    height: 30%;
+}
+/* .prost:hover .dager {
+    display: flex;
+} */
+
+
+.o_cebe{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+} 
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+.game{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
