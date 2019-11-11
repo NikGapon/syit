@@ -42,7 +42,7 @@
     justify-content: center
     
 }
-ul {
+.main_spis{
     list-style: none; /*убираем маркеры списка*/
     margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
     padding-left: 0; /*убираем левый отступ, равный 40px*/
@@ -113,3 +113,26 @@ body{
     align-items: center;
     justify-content: center 
 }
+
+.psevdo_main_block{
+    margin-top: 10;
+    width: 30%;
+    height: 90%;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://image.freepik.com/free-photo/_63047-177.jpg);
+    
+}
+
+.galer{
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+
+
+
+
