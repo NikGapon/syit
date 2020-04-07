@@ -1,0 +1,136 @@
+<style>
+    #block{
+        width: 100px;
+        height: 100px;
+        /* background-color: aqua; */
+        background-image: url(img/bg.png);
+    }
+    #cc{
+        
+        border: 2px solid black;
+        width: 500px;
+        height: 500px;
+    }
+    #sten{
+        border: 1px solid red;
+        width: 100px;
+        height: 100px;
+        transform: translate(100px, -500px);
+    }
+    #les{
+        height: 50px;
+        width: 100px;
+        background: url("img/les.png");
+        
+
+        transform: translate(100px, -500px);
+    }
+
+</style>
+
+<div id="cc">
+    <div id="block"></div>
+    
+
+</div>
+<div id="sten"></div>
+<div id="les"></div>
+<!-- <video>
+    <source src="1.mp4">
+</video> -->
+<script>
+    if (localStorage.getItem("initial") !== null){
+        var initial = Number(localStorage.getItem("initial"))
+    } else {
+    var initial = 0;
+    localStorage.setItem("initial", 0)
+    
+    }
+
+
+    if (localStorage.getItem("ynitial") !== null){
+        var ynitial = Number(localStorage.getItem("ynitial"))
+    } else {
+        var ynitial = 0;
+        localStorage.setItem("ynitial", 0)
+    }
+
+    var amount = 100;
+    
+    // document.getElementById("block").style.transform = "translateY(" + ynitial + "px)";
+    // document.getElementById("block").style.transform = "translateX(" + initial + "px)";
+    document.getElementById("block").style.transform = "translate(" + initial + "px, " + ynitial + "px)";
+    document.addEventListener('keydown', function (event){ 
+        switch (event.code){
+            case "KeyF":
+                
+                if (initial == 100){
+                    if (ynitial == 0){
+                        location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); 
+                    }
+                }
+                break;
+            case "ArrowLeft":
+                
+                if (initial !== 0){
+                    if (initial !== 200 || ynitial !== 0){
+                        
+                        initial -= amount;
+                        
+                    }   
+                }
+
+                localStorage.setItem("initial", initial)
+                document.getElementById("block").style.transform = "translate(" + initial + "px, " + ynitial + "px)";
+                break;
+            case "ArrowRight":
+                if (initial !== 400){
+                    if (initial !== 0 || ynitial !== 0){
+                        
+                        initial += amount;
+                        
+                    }   
+                }
+                
+                localStorage.setItem("initial", initial)
+                document.getElementById("block").style.transform = "translate(" + initial + "px, " + ynitial + "px)";
+                break;
+
+
+
+            case "ArrowDown":
+                if (ynitial !== 400){
+                    ynitial += amount;
+                }
+                
+                localStorage.setItem("ynitial", ynitial)
+                document.getElementById("block").style.transform = "translate(" + initial + "px, " + ynitial + "px)";
+                break;
+            case "ArrowUp":
+            if (ynitial !== 0){
+                    
+                        
+                    ynitial -= amount;
+                        
+                    
+                }
+                
+                localStorage.setItem("ynitial", ynitial)
+                document.getElementById("block").style.transform = "translate(" + initial + "px, " + ynitial + "px)";
+                break;
+        }
+    });
+    // function stand(napr);
+    //     var initial = Number(localStorage.getItem("initial"));
+    //     var ynitial = Number(localStorage.getItem("ynitial"));
+    //     if (napr == "r"){
+    //         if (initial == 400){
+    //             return false;
+    //         } else{
+    //             return true;
+    //         }
+    //     }
+
+
+        
+</script>

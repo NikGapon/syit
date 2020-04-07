@@ -11,13 +11,15 @@
                 <p align="center">
                 <div class="yu">
                     <ul class="main_spis">
-                        <li><div class="dager"><tr><td><a href="123.html"><b>ГЛАВНАЯ</b></a></td></div></li>
-                        <li><div class="dager"><td><a href="о себе.html"><b>О СЕБЕ</b></a></td></div></li>
-                        <li><div class="dager"><td><a href="блог(в разработке).html"><b>БЛОГ</b></a></div></td></li>
-                        <li><div class="dager"><td><a href="галерея.html"><b>ГАЛЕРЕЯ</b></a></td></div></li>
-                        <li><div class="dager"><td><a href="игра.html"><b>ИГРА</b></a></td></tr></div></li>
+                    <li><div class="dager"><tr><td><a href="index.php"><b>ГЛАВНАЯ</b></a></td></div></li>
+                        <li><div class="dager"><td><a href="o_sebe.php"><b>О СЕБЕ</b></a></td></div></li>
+                        <li><div class="dager"><td><a href="blog.php"><b>БЛОГ</b></a></div></td></li>
+                        <li><div class="dager"><td><a href="gallery.php"><b>ГАЛЕРЕЯ</b></a></td></div></li>
+                        <li><div class="dager"><td><a href="game.php"><b>ИГРА</b></a></td></tr></div></li>
                         </ul>
+                    <!-- <div class="ave_prof"><image src="save_img/default.png"></div> -->
                     </p>
+
                 </div>
                 <br>
                 <br>

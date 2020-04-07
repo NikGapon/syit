@@ -3,6 +3,21 @@
     background: rgb(0, 0, 0)
 }
 
+#ave_prof{
+    max-height: 100px;
+    max-width: 100px;
+    /* height: 100px;
+    width: 100px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* background-image: url(save_img/default.png); */
+   
+}
+
+
+
+
 #id {
     color: red
 }
@@ -58,16 +73,31 @@ a {
 
 }
 
+.imge{
+    height: 100%;
+    width: 100%;
+}
+
+.stro4ka_foto{
+    overflow: auto;
+    height: 100%;
+}
 .dager{
     /* border: 1px solid rgb(0, 0, 0); */
     height: 50px;
     width: 100px;
     display: flex;
     align-items: center;
-    justify-content: center 
+    justify-content: center; 
     /* text-align: center;
     align-items: center */
 }
+
+.block {
+    height: 100%;
+    width: 100%;
+}
+
 li{
     margin-left: 10px;
     margin-right: 10px;
@@ -131,8 +161,5 @@ body{
     margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
     padding-left: 0; /*убираем левый отступ, равный 40px*/
 }
-
-
-
 
 
